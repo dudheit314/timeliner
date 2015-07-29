@@ -73,7 +73,7 @@ foreach (glob($config['data_directory'] . '/*.*') as $file) {
 
     $timeline = array(
         'headline' => utf8($config['headline']),
-        'text' => '<p>' . utf8($config['text']) . '</p><br /><br /><a href="'. $config['data_directory'].'/zip.php">Download</a>',
+        'text' => '<p>' . utf8($config['text']) . '</p><br /><br /><a href="zip.php">Download</a>',
         'type' => 'default',
         'date' => $dates
     );
